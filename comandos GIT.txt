@@ -1,0 +1,27 @@
+### Tutorial de Uso de GIT
+
+git config --global user.name "Carlos Alvarez Rozas"
+
+(El comando anterior se usa para configurar nuestro nombre de usuario de Git. Se debe especificar tanto el nombre como el  apellido, aunque este nombre de usuario puede ser cualquier texto que se desee adjuntar a los  commit o confirmaciones. El  nombre de usuario de Git no necesita ser el mismo que su nombre de usuario de control de versiones, como el que usa en GitHub.)
+
+git config --global user.email "carlos.alvareza.rozas@gmail.com"
+
+( el comando anterior se usa para indicar el correo electrónico del usuario que realiza los commit.)
+
+echo "# OpenBootcamp" >> README.md  (se usa para agregar contenido a un archivo, sin reemplazar el contenido existente)
+
+echo "# OpenBootcamp" > README.md  (se usa para agregar contenido a un archivo, reemplazando su contenido actual)
+
+git init  (se usa para inicializar un repositorio en forma local)
+
+git add README.md | git add . (se usa para indicar el o los archivos que se subirán al repositorio remoto)
+
+git commit -m "first commit" (se usa para crear un comentario para los archivos que se subiran al repositorio remoto)
+
+git branch -M main  (se usa para establecer o cambiar la rama o branch activa)
+
+git remote add origin https://github.com/crarchile/OpenBootcamp.git   (se usa para agregar un repositorio a Git con un nombre x, en este caso "origin")
+
+git push -u origin main   (se usa para enviar el contenido de nuestro repositorio local al repositorio remoto)
+
+git pull  (se usa para descargar el contenido actualizado del repositorio remoto al directorio actual)
